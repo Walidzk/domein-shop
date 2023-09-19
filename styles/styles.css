@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+/*grijs #899CA0*/
+/*donkergroen #1C2B32*/
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid indianred;*/
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1C2B32;
+}
+
+a:visited {
+    color: #899CA0;
+}
+
+a:link {
+    color: #899CA0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+/*///////////// 3.1 Header /////////////*/
+.availability-check {
+    border-radius: 0 1000px 1000px 0;
+    border: solid 2px;
+    border-color: #1C2B32;
+    padding: 20px;
+    background-color: #1C2B32;
+    color: white;
+}
+
+input:focus {
+    outline: #1C2B32;
+}
+
+input::placeholder {
+    color: #1C2B32;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    border-radius: 1000px 0 0 1000px;
+    margin: -10px;
+    border: solid 2px;
+    padding: 20px;
+    background-color: transparent;
+    border-color: #1C2B32;
+}
+
+header {
+    text-align: center;
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    padding: 150px 0 400px
+
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 80px;
+    margin: 1% 0;
+}
+
+header p {
+    font-size: 20px;
+    margin: 2% 0;
+}
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+h2 {
+    text-align: center;
+    margin: 4% 0 4% 0;
+    color: #1C2B32;
+}
+
+
+.recentie-square {
+    background-color: white;
+    text-align: center;
+    width: 700px;
+    margin: 4% auto;
+    padding: 60px;
+    border-radius: 15px;
+    font-size: 12px;
+    -webkit-box-shadow: 22px 14px 54px 3px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 22px 14px 54px 3px rgba(0, 0, 0, 0.14);
+    box-shadow: 22px 14px 54px 3px rgba(0, 0, 0, 0.14);
+}
+
+.recentie-square .quote-left {
+    float: left;
+}
+
+.recentie-square .avatar {
+    float: left;
+    margin-right: 2%;
+    margin-top: -5px;
+    width: 7%;
+    height: 7%;
+}
+
+.recentie-square p {
+    font-size: 15px;
+}
+
+.recentie-square .recentie-cite {
+    float: left;
+    font-size: 15px;
+}
+
+
+.callcenter-foto {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.contact-button {
+    border-radius: 1000px;
+    border: solid 2px;
+    padding: 20px;
+    background-color: #1C2B32;
+    color: white;
+    border-color: #1C2B32;
+}
+
+main p {
+    font-size: 17px;
+    margin: 2% auto;
+}
+
+/*--------------hieronder uitklap puntjes--------------------*/
+
+.h2-minder-ruimte {
+    margin: 50px 0 50px 0;
+}
+
+.container {
+    margin: 0 0 0 380px;
+}
+
+.uitklapmenu summary {
+    cursor: pointer;
+}
+
+.uitklapmenu summary {
+    margin: 20px 0 0 380px;
+}
+
+.uitklapmenu .content {
+    margin: 0 0 0 380px;
+    color: white;
+
+    background-color: #899CA0;
+    text-align: center;
+    width: 700px;
+    margin: 4% auto;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+/*///////////// 3.3 Support /////////////*/
+
+.contact-us{
+    text-align: left;
+}
+/*///////////// 3.4 Faq /////////////*/
+
+
+/*///////////// 3.5 Footer /////////////*/
+.container-footer {
+    background-color: #1C2B32;
+    width: auto;
+    padding: 30px;
+    margin: 50px 0 0 0;
+}
+
+footer .footer-text {
+    color: white;
+    font-size: 12px;
+    text-align: center;
